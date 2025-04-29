@@ -27,6 +27,12 @@ static int Div(int a , int b){
         bool h=true;
         int num1=20;
         int num2=10;
+        //variant 1
+         Console.WriteLine("num"+num);
+        Console.WriteLine("s:"+s);
+        Console.WriteLine("Fees:"+fees);
+        Console.WriteLine("h:"+h);
+        //variant 2
         Console.WriteLine($"num:{num}");
         Console.WriteLine($"s:{s}");
         Console.WriteLine($"Fees:{fees}");
