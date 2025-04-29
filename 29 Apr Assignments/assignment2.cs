@@ -39,6 +39,7 @@ static int Div(int a , int b){
         Console.WriteLine($"h:{h}");
         //dynamic code
         //inefficient == int Result=Add(num1,num2);
+        //assignment 1- operators
          Console.WriteLine("Add="+Ad(num1,num2));
          Console.WriteLine("Sub="+Sub(num1,num2));
          Console.WriteLine("Mul="+Mul(num1,num2));
