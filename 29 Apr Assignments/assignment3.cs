@@ -1,17 +1,18 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
 using System;
 
-class Program
+public class Program
 {
     static void Main()
     {
-        Console.WriteLine("Multiples of 5 from 1 to 10:");
-
-        for (int i = 1; i <= 10; i++)
-        {
-            if (i % 5 == 0)
-            {
-                Console.WriteLine(i);
-            }
+        //multiples
+        Console.Write("Enter a number: ");
+        int number = int.Parse(Console.ReadLine());
+        Console.WriteLine($"First 10 multiples of {number}:");
+        for (int i = 1; i <= 10; i++){
+            Console.WriteLine($"{number * i}");
         }
     }
 }
