@@ -4,43 +4,6 @@ class Program
 {
     static void Main()
     {
-        Console.Write("Enter first number: ");
-        int num1 = int.Parse(Console.ReadLine());
-
-        Console.Write("Enter second number: ");
-        int num2 = int.Parse(Console.ReadLine());
-
-        Console.Write("Enter third number: ");
-        int num3 = int.Parse(Console.ReadLine());
-
-        int largest;
-
-        if (num1 >= num2 && num1 >= num3)
-        {
-            largest = num1;
-        }
-        else if (num2 >= num1 && num2 >= num3)
-        {
-            largest = num2;
-        }
-        else
-        {
-            largest = num3;
-        }
-
-        Console.WriteLine($"The largest number is: {largest}");
-    }
-}
-🔹 2. Print the day of the week for a number from 1 to 7
-csharp
-Copy
-Edit
-using System;
-
-class Program
-{
-    static void Main()
-    {
         //greatest of 3
          Console.Write("Enter first number: ");
         int num1 = int.Parse(Console.ReadLine());
