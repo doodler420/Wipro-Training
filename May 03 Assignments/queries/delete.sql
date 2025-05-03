@@ -1,0 +1,1 @@
+delete from students where StudentID=4;
