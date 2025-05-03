@@ -1,4 +1,4 @@
 update Students
-set Marks=95
+set Marks=94
 where LastName='Verma';
 select * from Students;
