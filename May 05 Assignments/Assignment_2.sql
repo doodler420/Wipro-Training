@@ -1,5 +1,4 @@
-CREATE PROCEDURE dbo.GetProductRevenue
-    @ProductID INT
+CREATE PROCEDURE GetProductRevenue @ProductID INT
 AS
 BEGIN
     SELECT 
@@ -15,3 +14,4 @@ BEGIN
     GROUP BY 
         p.ProductID, p.ProductName;
 END;
+EXEC GetProductRevenue @ProductID=1;
