@@ -1,0 +1,25 @@
+
+
+# 1. CREATE USER  
+
+```sql
+CREATE USER test_user FOR LOGIN test_login;
+```  
+
+**Note:**  
+First, ensure the login exists. If not:  
+
+```sql
+CREATE LOGIN test_login WITH PASSWORD = 'StrongPass123';
+```  
+
+---
+
+### Key Points:
+1. Two-step process in SQL Server:
+   - First create a **LOGIN** (server-level access)
+   - Then create a **USER** (database-level access)
+2. The example shows:
+   - Creating a login with password authentication
+   - Mapping a database user to that login
+

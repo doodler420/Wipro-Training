@@ -1,0 +1,14 @@
+What is DCL?
+DCL (Data Control Language) is a subset of SQL used to manage database security by controlling user access permissions.
+
+Key Features
+✔ User Management: Create, modify, or delete users.
+✔ Permission Control: Grant or revoke access to database objects (tables, views, procedures).
+✔ Security Enforcement: Ensures only authorized users can perform specific operations.
+
+Core DCL Commands
+Command,	Purpose,	Example
+CREATE USER:	Creates a new database user with login credentials.	CREATE USER 'admin' IDENTIFIED BY 'password123';
+DROP USER:	Removes a user from the database.	DROP USER 'old_user';
+GRANT:	Gives privileges (SELECT, INSERT, UPDATE, DELETE, etc.) to users/roles.	GRANT SELECT, INSERT ON Employees TO 'manager';
+REVOKE:	Takes back granted permissions.	REVOKE DELETE ON Employees FROM 'intern';
