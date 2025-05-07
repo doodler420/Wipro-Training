@@ -58,7 +58,24 @@ static void CountFrequency(int[] arr)
                 if (entry.Value > 1)
                     Console.WriteLine(entry.Key);
             }
-        }
+    //     }
+    //      static void FindDuplicateWords(string sentence)
+    // {
+    //     string[] words = sentence.Split(' ');
+
+    //     for (int i = 0; i < words.Length; i++)
+    //     {
+    //         for (int j = i + 1; j < words.Length; j++)
+    //         {
+    //             if (words[i] == words[j])
+    //             {
+    //                 Console.WriteLine(words[i]);
+    //                 break;  // To avoid printing the same duplicate multiple times
+    //             }
+    //         }
+    //     }
+    // } better code reference
+
     static void Main()
     {
         int[] array = {1,2,1,3,2};
