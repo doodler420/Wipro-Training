@@ -23,6 +23,23 @@ static void CountFrequency(int[] arr)
             }
         }
     }
+    // static void CountFrequencies(int[] arr)
+    // {
+    //     Dictionary<int, int> freq = new Dictionary<int, int>();
+
+    //     foreach (int num in arr)
+    //     {
+    //         if (freq.ContainsKey(num))
+    //             freq[num]++;
+    //         else
+    //             freq[num] = 1;
+    //     }
+
+    //     foreach (var pair in freq)
+    //     {
+    //         Console.WriteLine($"{pair.Key} appears {pair.Value} time(s)");
+    //     }
+    // } better code reference
     static void FindLongestWord(string sentence)
     {
         string[] words = sentence.Split(' ');
@@ -58,7 +75,7 @@ static void CountFrequency(int[] arr)
                 if (entry.Value > 1)
                     Console.WriteLine(entry.Key);
             }
-    //     }
+   }
     //      static void FindDuplicateWords(string sentence)
     // {
     //     string[] words = sentence.Split(' ');
