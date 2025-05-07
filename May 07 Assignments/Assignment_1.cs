@@ -1,5 +1,5 @@
-using system;
-
+using System;
+using System.Collections.Generic;
 class Program{
 
 static void CountFrequency(int[] arr)
