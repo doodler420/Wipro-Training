@@ -17,8 +17,8 @@ class Train : ITransport
 class Program{
     static void Main()
     {
-        Bus bus = new Bus();
-        Train train = new Train();
+        ITransport bus = new Bus();
+        ITransport train = new Train();
 
         bus.Start();
         bus.Stop();
