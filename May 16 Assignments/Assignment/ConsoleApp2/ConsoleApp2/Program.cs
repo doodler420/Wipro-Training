@@ -29,9 +29,30 @@ class Program
             // print the CustomerID of each record
             while (rdr.Read())
             {
-                Console.WriteLine(rdr[0].ToString().Trim().PadRight(25)+ 
-                "\t\t\t" + rdr[1].ToString().Trim().PadRight(20) + 
+                Console.WriteLine(rdr[0].ToString().Trim().PadRight(25) +
+                "\t\t\t" + rdr[1].ToString().Trim().PadRight(20) +
                 "\t\t\t" + rdr[2].ToString().Trim().PadRight(30));
+//answer
+//                 // 1. get an instance of the SqlDataReader
+// rdr = cmd.ExecuteReader();
+
+// // print a set of column headers
+// Console.WriteLine("Contact Name    City    Company Name");
+// Console.WriteLine("______");
+
+// // 2. print necessary columns of each record
+// while (rdr.Read())
+// {
+//     // get the results of each column
+//     string contact = (string)rdr["ContactName"];
+//     string company = (string)rdr["CompanyName"];
+//     string city = (string)rdr["City"];
+//     // print out the results
+//     Console.Write("{0,-25}", contact);
+//     Console.Write("{0,-20}", city);
+//     Console.Write("{0,-25}", company);
+//     Console.WriteLine();
+// }
             }
         }
         catch
