@@ -23,13 +23,15 @@ class Program
             //
 
             // get query results
-            rdr = cmd.ExecuteReader();
-            Console.WriteLine("Contact Name\t\t\tCity\t\t\tCompany Name");
-            Console.WriteLine("------------\t\t\t----\t\t\t-------------");
+                        rdr = cmd.ExecuteReader();
+            Console.WriteLine("Contact Name\t\t\t\t\tCity\t\t\t\t\tCompany Name");
+            Console.WriteLine("------------\t\t\t\t\t----\t\t\t\t\t-------------");
             // print the CustomerID of each record
             while (rdr.Read())
             {
-                Console.WriteLine(rdr[0] + "\t\t\t" + rdr[1] + "\t\t\t" + rdr[2]);
+                Console.WriteLine(rdr[0].ToString().Trim().PadRight(25)+ 
+                "\t\t\t" + rdr[1].ToString().Trim().PadRight(20) + 
+                "\t\t\t" + rdr[2].ToString().Trim().PadRight(30));
             }
         }
         catch
