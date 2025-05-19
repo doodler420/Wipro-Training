@@ -1,0 +1,7 @@
+adding Migration
+
+Add-Migration -Name RelationshipMigration -Context WebApplication4Context
+Update-Database -Migration RelationshipMigration -Context WebApplication4Context
+
+for removal ,just removee class grade and change name to removegrademigration
+
