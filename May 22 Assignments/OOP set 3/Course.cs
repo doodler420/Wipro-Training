@@ -11,7 +11,6 @@ class Course
 interface IEnrollable
 {
     void Enroll(Course course);
-    void Enroll(Course course, string couponCode);
 }
 
 class User : IEnrollable
