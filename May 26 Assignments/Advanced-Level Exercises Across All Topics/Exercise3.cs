@@ -6,7 +6,7 @@ using System.Linq;
 class BankAccount
 {
     List<string> transactions = new List<string>();
-    const string file = "transactions.txt";
+    const string file = "transactions.txt"; //File operations , this file does not exist, i just made it up
 
     public BankAccount()
     {
