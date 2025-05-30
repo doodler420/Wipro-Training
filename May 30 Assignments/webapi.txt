@@ -1,0 +1,58 @@
+What is a web api?
+
+-A Web API is an Application Programming Interface (API) designed to be accessed over the web,
+ typically using HTTP/HTTPS protocols. It acts as a bridge between different software applications or systems,
+ enabling them to communicate and exchange data over the internet.
+-Example Use Case:
+A weather app uses a Web API to fetch real-time weather data from a remote server.
+
+Key Characteristics of Web APIs:
+
+Network-Based:
+-Web APIs are designed to be accessed over a network, most commonly the internet, using HTTP/HTTPS requests. 
+HTTP/HTTPS:
+They rely on standard web protocols like HTTP (Hypertext Transfer Protocol) and HTTPS (Secure HTTP) 
+to handle communication. 
+-Request-Response:
+Web APIs typically operate on a request-response model, where a client sends a request 
+(e.g., using HTTP GET, POST, PUT, DELETE) to the API, and the API responds with data or a status code. 
+-Data Exchange:
+They enable the exchange of data between different applications or systems in a structured format,
+often using JSON or XML. 
+-Interface:
+Web APIs act as an interface, defining the rules and protocols that clients must follow to interact 
+with a service. 
+-Versatile:
+They can be used to build various web applications, mobile apps, and other software systems. 
+
+How do Web APIs work?
+
+1. Client Request:
+A client application initiates a request to the Web API, specifying what it wants to retrieve or do.
+2. Server Processing:
+The server (where the Web API resides) receives the request and processes it, using the defined rules of the API.
+3. Server Response:
+The server sends back a response to the client, typically containing the requested data or an indication of success or failure.
+4. Data Usage:
+The client application then uses the received data to fulfill its purpose, such as displaying information or performing a task. 
+
+Methods:
+-GET: Retrieves data from the server without modifying it.
+-POST: Sends data to the server to create a new resource.
+-PUT: Updates or replaces an existing resource on the server.
+-DELETE: Removes a specified resource from the server.
+
+Why use web APIs?
+
+-Platform Independence:
+APIs allow different systems (web, mobile, desktop) to communicate using standard protocols like HTTP/HTTPS.
+-Separation of Concerns:
+Frontend (UI) and backend (logic/database) can be developed independently.
+-Reusability:
+A single API can serve multiple clients (web, Android, iOS, IoT).
+-Scalability:
+APIs enable microservices architecture, making it easier to scale individual components.
+-Security:
+APIs support authentication (OAuth, JWT) and encryption (HTTPS) to protect data.
+-Statelessness (REST):
+Each request is independent, improving reliability and performance.
