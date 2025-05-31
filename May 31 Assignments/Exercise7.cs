@@ -5,11 +5,9 @@ class Calculator
     public static int Add(int a, int b) => a + b;
     public static float Add(float a, float b) => a + b;
     public static double Add(double a, double b) => a + b;
-
     public static int Subtract(int a, int b) => a - b;
     public static float Subtract(float a, float b) => a - b;
     public static double Subtract(double a, double b) => a - b;
-
     public static int Multiply(int a, int b) => a * b;
     public static float Multiply(float a, float b) => a * b;
     public static double Multiply(double a, double b) => a * b;

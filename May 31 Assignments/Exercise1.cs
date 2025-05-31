@@ -22,8 +22,7 @@ class Truck : Vehicle
         public override void Rent() => Console.WriteLine("Truck - ₹100/day");
 }
 class Program
-{
-    static void Main()
+{    static void Main()
     {
         List<Vehicle> vehicles = new List<Vehicle>
         {

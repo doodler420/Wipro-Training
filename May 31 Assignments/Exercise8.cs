@@ -5,7 +5,6 @@ interface IPrintable
 {
     void Print();
 }
-
 abstract class Invoice
 {
     public List<(string Item, int Qty, double Price)> Products = new();

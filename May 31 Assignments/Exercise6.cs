@@ -34,7 +34,6 @@ class Program
             bookToBorrow.BorrowedBy = student.Name;
             bookToBorrow.DueDate = DateTime.Now.AddDays(14);
         }
-
         // Display status
         foreach (var book in books)
         {

@@ -1,7 +1,6 @@
 using System;
 using System.Threading.Tasks;
 using System.Diagnostics;
-
 class Program
 {
     static async Task<string> FetchWeather(string city)

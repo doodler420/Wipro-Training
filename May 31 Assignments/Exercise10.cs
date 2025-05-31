@@ -27,7 +27,6 @@ class Program
             var min = s.Marks.Values.Min();
             Console.WriteLine($"{s.Name}: Avg = {avg}, High = {max}, Low = {min}");
         }
-
         var top3 = students.OrderByDescending(s => s.Marks.Values.Average()).Take(3);
         Console.WriteLine("\nTop 3 Scorers:");
         foreach (var s in top3)

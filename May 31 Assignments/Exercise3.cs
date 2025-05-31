@@ -63,7 +63,6 @@ class Program
                 Console.WriteLine($"Wrong! Correct answer: {q.Options[q.CorrectAnswerIndex]}\n");
             }
         }
-
         Console.WriteLine($"Quiz finished! Your score: {score} / {questions.Count}");
     }
 }

@@ -8,7 +8,6 @@ class Program
     {
         Console.WriteLine("Enter a paragraph:");
         string input = Console.ReadLine();
-
         var words = input.Split(new[] { ' ', '.', ',', '!', '?' }, StringSplitOptions.RemoveEmptyEntries);
         var wordFreq = words.GroupBy(w => w.ToLower())
                             .ToDictionary(g => g.Key, g => g.Count());

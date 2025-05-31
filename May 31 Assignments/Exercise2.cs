@@ -25,7 +25,6 @@ class Program
 
         string filterDept = "IT";
         var filtered = employees.Where(e => e.Department == filterDept);
-
         Console.WriteLine($"{filterDept} department:");
         foreach (var emp in filtered)
             Console.WriteLine($"{emp.Name} - ₹{emp.Salary}");

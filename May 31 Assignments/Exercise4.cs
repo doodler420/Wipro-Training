@@ -6,7 +6,6 @@ class FileProcessor
 {
     static int totalLines = 0;
     static object lockObj = new object();
-
     static void CountLines(string filePath)
     {
         int lines = File.ReadAllLines(filePath).Length;
