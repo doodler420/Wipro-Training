@@ -1,0 +1,26 @@
+Azure Functions is a serverless compute service by Microsoft Azure that lets you run event-triggered code without managing infrastructure. It supports multiple languages like C#, JavaScript, Python, and Java, and automatically scales based on demand. Functions can be triggered by HTTP requests, timers, queues, or other Azure services, making them ideal for microservices, APIs, and automation tasks. With pay-per-use pricing, it’s cost-effective for short-lived, stateless workloads. Built-in integrations with Azure services simplify workflows, while Durable Functions enable stateful orchestration for complex processes.
+Here’s a more detailed overview of **Azure Functions**:  
+
+### **Key Features:**  
+✅ **Serverless & Event-Driven** – Execute code in response to triggers like HTTP requests, timers, or Azure service events (Blob Storage, Cosmos DB, Service Bus, etc.).  
+✅ **Multi-Language Support** – Write functions in C#, JavaScript, Python, Java, PowerShell, or custom handlers.  
+✅ **Automatic Scaling** – Dynamically scales based on workload, handling high throughput with ease.  
+✅ **Pay-per-Execution Pricing** – Only pay for the compute time used (with a free grant for light usage).  
+✅ **Integration with Azure Services** – Easily connects with Azure Logic Apps, Event Grid, Storage, and more.  
+✅ **Durable Functions** – Extends Functions for stateful workflows and long-running orchestrations.  
+✅ **Flexible Hosting Options** – Runs in a Consumption Plan (serverless), Premium Plan (VNet support), or Dedicated (App Service) Plan.  
+
+### **Common Use Cases:**  
+🔹 **APIs & Microservices** – Lightweight HTTP-triggered functions for backend logic.  
+🔹 **Event Processing** – React to changes in databases, queues, or file uploads (e.g., Blob Storage triggers).  
+🔹 **Scheduled Tasks** – Run cleanup jobs, reports, or notifications using timer triggers.  
+🔹 **Serverless Workflows** – Chain functions with **Durable Functions** for complex processes.  
+🔹 **Real-time Data Processing** – Handle IoT telemetry, stream analytics, or webhooks.  
+
+### **Example Triggers:**  
+- **HTTP Trigger** – REST API endpoints  
+- **Timer Trigger** – Cron jobs (e.g., "Run every day at 5 PM")  
+- **Blob Trigger** – React to file uploads in Azure Storage  
+- **Queue Trigger** – Process messages from Azure Storage Queue or Service Bus  
+- **Cosmos DB Trigger** – Respond to database changes  
+
