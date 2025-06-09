@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\OnlineBookLibrary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{611F0D3C-1A6E-49DB-8235-C2EF0C9F989A}|OnlineBookLibrary\\OnlineBookLibrary.csproj|c:\\users\\admin\\source\\repos\\onlinebooklibrary\\onlinebooklibrary\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{611F0D3C-1A6E-49DB-8235-C2EF0C9F989A}|OnlineBookLibrary\\OnlineBookLibrary.csproj|solutionrelative:onlinebooklibrary\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611F0D3C-1A6E-49DB-8235-C2EF0C9F989A}|OnlineBookLibrary\\OnlineBookLibrary.csproj|c:\\users\\admin\\source\\repos\\onlinebooklibrary\\onlinebooklibrary\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{611F0D3C-1A6E-49DB-8235-C2EF0C9F989A}|OnlineBookLibrary\\OnlineBookLibrary.csproj|solutionrelative:onlinebooklibrary\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611F0D3C-1A6E-49DB-8235-C2EF0C9F989A}|OnlineBookLibrary\\OnlineBookLibrary.csproj|c:\\users\\admin\\source\\repos\\onlinebooklibrary\\onlinebooklibrary\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{611F0D3C-1A6E-49DB-8235-C2EF0C9F989A}|OnlineBookLibrary\\OnlineBookLibrary.csproj|solutionrelative:onlinebooklibrary\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611F0D3C-1A6E-49DB-8235-C2EF0C9F989A}|OnlineBookLibrary\\OnlineBookLibrary.csproj|c:\\users\\admin\\source\\repos\\onlinebooklibrary\\onlinebooklibrary\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{611F0D3C-1A6E-49DB-8235-C2EF0C9F989A}|OnlineBookLibrary\\OnlineBookLibrary.csproj|solutionrelative:onlinebooklibrary\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\OnlineBookLibrary\\OnlineBookLibrary\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlineBookLibrary\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\OnlineBookLibrary\\OnlineBookLibrary\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "OnlineBookLibrary\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T05:16:54.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\OnlineBookLibrary\\OnlineBookLibrary\\Views\\Books\\Details.cshtml",
+              "RelativeDocumentMoniker": "OnlineBookLibrary\\Views\\Books\\Details.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\OnlineBookLibrary\\OnlineBookLibrary\\Views\\Books\\Details.cshtml",
+              "RelativeToolTip": "OnlineBookLibrary\\Views\\Books\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T04:33:22.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\OnlineBookLibrary\\OnlineBookLibrary\\Views\\Books\\Edit.cshtml",
+              "RelativeDocumentMoniker": "OnlineBookLibrary\\Views\\Books\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\OnlineBookLibrary\\OnlineBookLibrary\\Views\\Books\\Edit.cshtml",
+              "RelativeToolTip": "OnlineBookLibrary\\Views\\Books\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T04:33:21.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\OnlineBookLibrary\\OnlineBookLibrary\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "OnlineBookLibrary\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\OnlineBookLibrary\\OnlineBookLibrary\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "OnlineBookLibrary\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T04:17:09.815Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
